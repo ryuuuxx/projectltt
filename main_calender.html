@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Personal - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <br></br>
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                                <!--<div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase"> </div></div>-->
+                                <div class="display-5 fw-bolder mb-5"><span class="text-gradient d-inline">여행 기간이 어떻게 되시나요?</span>
+                                <h1 class="fs-6 fw-light text-muted">여행 기간을 입력해 주세요<br>(여행지 도착 날짜,여행지 출발 날짜)</h1></div>
+
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <!--Calendar-->
+                            <div class="calendar-container">            
+                                <div class="calendar">
+                                  <div class="month-navigation">
+                                        <button id="prevMonth">&lt;</button>
+                                        <span id="currentMonth"></span>
+                                         <button id="nextMonth">&gt;</button>
+                                    </div>
+                                    <div class="days-container">
+                                        <div class="day-header">
+                                            <span>일</span>
+                                            <span>월</span>
+                                            <span>화</span>
+                                            <span>수</span>
+                                            <span>목</span>
+                                            <span>금</span>
+                                            <span>토</span>
+                                        </div>
+                                        <div class="days" id="calendarDays">
+                                            <!-- 날짜들이 여기에 동적으로 추가됩니다 -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <button id="selectButton" class="select-button">선택</button>
+                                <div class="selected-dates" id="selectedDates"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+
+
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; LTT</div></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
